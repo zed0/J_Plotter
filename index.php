@@ -87,7 +87,6 @@ img {
 	position: relative;
 	border: 2px solid #333;
 	width: 200px;
-	height: 186px;
 	text-align: right;
 }
 
@@ -95,7 +94,8 @@ img {
 	position: relative;
 	border: 2px solid #333;
 	width: 100%;
-	height: 400px;
+	height: 100%;
+	overflow: auto;
 }
 
 #helptext {
@@ -134,7 +134,6 @@ img {
 #angle{
 	border: 2px solid #333;
 	width: 200px;
-	height: 206px;
 	text-align: right;
 }
 
@@ -179,7 +178,7 @@ The original version of this code was written by Ben Falconer \
 (<a href="mailto:ben@falconers.eclipse.co.uk">ben@falconers.eclipse.co.uk</a>) and is here: \
 <a href="http://zed0.uwcs.co.uk/J_Plotter.php">http://zed0.uwcs.co.uk/J_Plotter.php</a><br />\
 The original idea for this code came from Benjamin Joffe with\
- his Canvascape project: <a href="http://www.abrahamjoffe.com.au/ben/canvascape/">http://www.abrahamjoffe.com.au/ben/canvascape/</a>';
+his Canvascape project: <a href="http://www.abrahamjoffe.com.au/ben/canvascape/">http://www.abrahamjoffe.com.au/ben/canvascape/</a>';
 
 var uploaded;
 
@@ -308,7 +307,7 @@ function round(num) {
 		<h5>Best Viewed in Firefox @ 1024x768</h5>
 	</td>
 </table>
-<textarea id="savedata" style="width:100%; height:100px" wrap="logical">
+<textarea id="savedata" style="width:100%;" wrap="logical">
 </textarea>
 
 <script type="text/javascript"><!--
